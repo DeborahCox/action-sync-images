@@ -35,4 +35,4 @@ jobs:
         #!/usr/bin/env bash
         skopeo copy docker://kometateam/kometa:latest docker://registry.cn-hangzhou.aliyuncs.com/sitoxic/kometa:latest
         skopeo copy docker://kometateam/imagemaid:latest docker://registry.cn-hangzhou.aliyuncs.com/sitoxic/imagemaid:latest
-        skopeo copy docker://${{ secrets.DOCKER_DIO }}:latest docker://registry.cn-hangzhou.aliyuncs.com/sitoxic/DIO:latest
+        skopeo copy docker://${{ secrets.DOCKER_DIO }}:latest docker://registry.cn-hangzhou.aliyuncs.com/sitoxic/diu:latest
