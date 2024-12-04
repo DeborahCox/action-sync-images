@@ -36,3 +36,4 @@ jobs:
         skopeo copy docker://kometateam/kometa:latest docker://registry.cn-hangzhou.aliyuncs.com/sitoxic/kometa:latest
         skopeo copy docker://kometateam/imagemaid:latest docker://registry.cn-hangzhou.aliyuncs.com/sitoxic/imagemaid:latest
         skopeo copy docker://${{ secrets.DOCKER_DIO }}:latest docker://registry.cn-hangzhou.aliyuncs.com/sitoxic/diu:latest
+        skopeo copy docker://oscar1011/easy_xarr:main docker://registry.cn-hangzhou.aliyuncs.com/sitoxic/easy_xarr:latest
